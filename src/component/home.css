@@ -1,0 +1,28 @@
+.inpDiv {
+  width: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 190px 190px;
+  grid-template-rows: 40px 40px 40px 50px;
+  grid-gap: 20px;
+  background-color: brown;
+}
+.inpDiv > p:nth-child(7) {
+  background-color: chocolate;
+  border-radius: 10px;
+  color: chartreuse;
+  font-weight: bold;
+}
+.list {
+  width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 380px 380px;
+  color: darkcyan;
+  grid-gap: 40px;
+  border: 10px solid grey;
+  border-style: outset;
+}
+.list p {
+  margin-top: -10px;
+}
